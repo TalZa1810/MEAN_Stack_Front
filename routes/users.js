@@ -27,6 +27,13 @@ router.post('/register', (req, res, next)=>{
     })
 });
 
+
+/* GET register page */
+router.get('/register', (req, res, next) =>{
+    res.render('register');
+});
+
+
 // Authenticate
 router.post('/authenticate', (req, res, next) => {
     const username = req.body.username;
