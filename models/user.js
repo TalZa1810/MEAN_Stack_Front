@@ -42,10 +42,21 @@ module.exports.addUser = function(newUser, callback){
     });
 };
 
-module.exports.comparePassword = function (candidatePassword, hash, callback ) {
-    bcrypt.compare(candidatePassword, hash, (err, isMatch)=> {
-        if(err) throw err;
-        callback(null, isMatch);
-
+module.exports.comparePassword = function (candidatePassword, hash ) {
+    bcrypt.compare(candidatePassword, hash).then((res)=> {
+        res === true ? console.log("usr was found") : console.log("user was not found");
     });
 };
+
+
+/*
+ module.exports.comparePassword = function(candidatePassword, hash, callback){
+ bcrypt.compare(candidatePassword, hash, (err, isMatch) => {
+ if(err) throw err;
+ callback(null, isMatch);
+ });
+ }
+*/
+
+
+
