@@ -10,7 +10,9 @@ const mongoose = require('mongoose');
 const index = require('./routes/index');
 const users = require('./routes/users');
 const config = require('./config/database');
-
+const session = require('express-session');
+const connectMongo = require('connect-mongo');
+const MongoStore = connectMongo(session);
 //connect to database
 mongoose.connect(config.database);
 
@@ -24,6 +26,16 @@ mongoose.connection.on('error', (err)=> {
 });
 
 const app = express();
+
+app.use(session({
+    secret: 'talzaid cat',
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+        httpOnly: false,
+    }
+}))
 
 /* https://en.wikipedia.org/wiki/Cross-origin_resource_sharing */
 app.use(cors());

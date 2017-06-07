@@ -1,27 +1,28 @@
 function validateInput() {
-    let name = $('#name').val();
-    let username = $('#username').val();
-    let email = $('#email').val();
-    let password = $('#password').val();
+    const name = $('#name').val();
+    const username = $('#username').val();
+    const email = $('#email').val();
+    const password = $('#password').val();
 
-    let data = { name : name, username: username, email: email, password: password};
+    const data = { name, username, email, password};
 
     let promise = new Promise((fulfill, reject)=> {
         fulfill($.post( '/users/register' ,data));
         reject(new Error('Error Happened with inserting user'));
     });
 
-    promise.then(onSuccess, onReject);
+    promise.then(onSuccess, onReject).then(document.getElementById("register-form").reset());
 }
 
 function onReject(error) {
     $("#input-msg").append($("<p></p>").text('Error registered'));
     console.log(error.message);
+    document.getElementById("login-form").reset();
 }
 
 function onSuccess() {
-    $("#input-msg").append($("<p></p>").text("User registered"));
-    console.log('User registered');
+    $("#input-msg").append($("<p></p>").text(arguments[0].msg));
+    console.log(arguments[0].msg);
 }
 
 
@@ -93,4 +94,4 @@ function validateEmail(email) {
  return true;
  }
 
-*/
+ */

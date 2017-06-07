@@ -23,16 +23,16 @@ const UserSchema = mongoose.Schema({
 
 const User = module.exports = mongoose.model('User', UserSchema);
 
-module.exports.getUserById = function(id, callback){
+module.exports.getUserById = (id, callback) =>{
     User.findById(id, callback);
 };
 
-module.exports.getUserByUsername = function(username, callback){
-    const query = {username: username}
+module.exports.getUserByUsername = (username, callback)=>{
+    const query = {username: username};
     User.findOne(query, callback);
 };
 
-module.exports.addUser = function(newUser, callback){
+module.exports.addUser = (newUser, callback) => {
     bcrypt.genSalt(10, (err, salt) => {
         bcrypt.hash(newUser.password, salt, (err, hash) => {
             if(err) throw err;
@@ -42,21 +42,20 @@ module.exports.addUser = function(newUser, callback){
     });
 };
 
-module.exports.comparePassword = function (candidatePassword, hash ) {
-    bcrypt.compare(candidatePassword, hash).then((res)=> {
-        res === true ? console.log("usr was found") : console.log("user was not found");
-    });
-};
-
-
 /*
- module.exports.comparePassword = function(candidatePassword, hash, callback){
- bcrypt.compare(candidatePassword, hash, (err, isMatch) => {
- if(err) throw err;
- callback(null, isMatch);
+ module.exports.comparePassword = function (candidatePassword, hash , callback) {
+ bcrypt.compare(candidatePassword, hash).then((res)=> {
+ res === true ? callback(true) : callback(false);
  });
- }
+ };
 */
 
+
+module.exports.comparePassword = (candidatePassword, hash, callback)=>{
+    bcrypt.compare(candidatePassword, hash, (err, isMatch) => {
+        if(err) throw err;
+        callback(null, isMatch);
+    });
+};
 
 
