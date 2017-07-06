@@ -11,4 +11,3 @@ function userLogin() {
 
     promise.then(onSuccess, onReject);
 }
-
