@@ -1,0 +1,530 @@
+{
+  "id": "1a0dad3c-7c1c-45d2-a607-d1ebaf2de19b",
+  "name": "flow_name",
+  "description": "description",
+  "origins": [],
+  "experiences": [],
+  "components": [
+    {
+      "type": {
+        "id": "c8c55ce8-d902-4836-91cb-bad910f09cd4",
+        "name": "ReactTemplateComponent",
+        "description": "fdfdfd",
+        "props": [],
+        "refs": [
+          {
+            "id": "",
+            "name": "button1",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button1",
+            "behavior": {
+              "type": "code"
+            }
+          },
+          {
+            "id": "",
+            "name": "button2",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button2",
+            "behavior": {
+              "type": "code"
+            }
+          },
+          {
+            "id": "",
+            "name": "ref_1",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "ref_1",
+            "behavior": {
+              "type": "code"
+            }
+          }
+        ],
+        "skins": [
+          {
+            "id": "8db1d63e-e001-44bd-95b5-2130f145e450",
+            "name": "Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            }
+          },
+          {
+            "id": "5b6762c3-a3fb-42c7-a322-5730086452ca",
+            "name": "Another nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo2",
+              "framework": "react"
+            }
+          },
+          {
+            "name": "copy of Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            },
+            "id": "b07e0f24-afff-49d1-92f7-a94a93eabc91"
+          },
+          {
+            "name": "copy of copy of Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            },
+            "id": "8acfd9dc-6049-46d3-bfa6-b4b415674b98"
+          }
+        ],
+        "defaultSkin": 0,
+        "createdOn": "2025-08-12T08:35:54.000Z",
+        "resolvedDefinitions": [
+          {
+            "id": "c6efaea7-db53-4507-a836-a9acffe787b1",
+            "name": "HTMLTemplateComponent",
+            "description": "",
+            "props": [],
+            "refs": [
+              {
+                "id": "",
+                "name": "button1",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button1",
+                "behavior": {
+                  "type": "code"
+                }
+              },
+              {
+                "id": "",
+                "name": "button2",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button2",
+                "behavior": {
+                  "type": "code"
+                }
+              }
+            ],
+            "skins": [
+              {
+                "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504",
+                "name": "Nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": "<div class=\"component-container\">\n    <div class=\"component-inner-container\">\n        <div class=\"icons-container\">\n            <span class=\"icon html-icon\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n                </span>\n\n            <span class=\"icon myop-icon\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n                </span>\n        </div>\n\n        <div class=\"content-text\">\n            <h2 class=\"title\">Hey! I’m a Myop HTML Component.</h2>\n            <p class=\"subtitle\">Push me to production with Myop</p>\n        </div>\n\n        <div class=\"buttons-container\">\n            <button myop-id=\"button1\" class=\"btn btn-outline\" myoop-id=\"buuton1\">\n                    Like it!\n                </button>\n\n            <button myop-id=\"button2\" class=\"btn btn-primary\" myoop-id=\"button2\">\n                    Cool\n                </button>\n        </div>\n    </div>\n\n    <style>\n       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n\n        .component-container {\n            width: 100%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .component-inner-container {\n            padding: 24px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: 272px;\n            height: 272px;\n            justify-content: center;\n            gap: 20px;\n            border-radius: 20px;\n            border: 1px solid #3E3D3E;\n        }\n\n        .icons-container {\n            display: flex;\n            position: relative;\n            margin-top: 27px;\n        }\n\n        .icon {\n            background-color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 57px;\n            height: 57px;\n            gap: 8px;\n            flex-shrink: 0;\n            aspect-ratio: 1/1;\n            border-radius: 800px;\n            border: 1px solid black;\n        }\n\n        .html-icon {\n            margin-top: -27px;\n        }\n\n        .myop-icon {\n            z-index: 1;\n            margin-left: -20px;\n        }\n\n        .html-icon svg,\n        .myop-icon svg {\n            width: 35px;\n            height: 35px;\n        }\n\n        .content-text {\n            text-align: center;\n        }\n\n        .title {\n            margin: 0;\n            color: #000;\n            font-size: 16px;\n            font-style: normal;\n            font-weight: 700;\n            line-height: 24px;\n        }\n\n        .subtitle {\n            margin: 0;\n            font-size: 14px;\n            font-style: normal;\n            font-weight: 400;\n            line-height: 18px;\n            color: #000;\n        }\n\n        .buttons-container {\n            display: flex;\n            gap: 8px;\n        }\n\n        .btn {\n            border: 1px solid #5A595B;\n            font-size: 14px;\n            cursor: pointer;\n            transition: all 0.2s;\n            border-radius: 40px;\n        }\n\n        .btn-outline {\n            padding: 6px 12px;\n            background-color: white;\n            color: #0A090A;\n        }\n\n        .btn-outline:hover {\n            background-color: #f5f5f5;\n        }\n\n        .btn-primary {\n            padding: 6px 18px;\n            color: white;\n            background-color: #343738;\n        }\n\n        .btn-primary:hover {\n            background-color: black;\n        }\n    </style>",
+                  "shadowRootMode": "closed"
+                }
+              },
+              {
+                "name": "Another nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": " <div class=\"container\">\n        <div class=\"box\">\n            <div class=\"icons\">\n                <div class=\"icon html5\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n\n                </div>\n                <div class=\"icon myop\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n\n                </div>\n\n            </div>\n            <div class=\"content\">\n                <h2 class=\"title\">Hi there! <br />\n                    I’m a Myop HTML Component</h2>\n                <p class=\"subtitle\">\n                    Push me to production with Myop\n                </p>\n                <div class=\"buttons\">\n                    <button class=\"button button-primary\" myop-id=\"button1\">UI</button>\n                    <button class=\"button button-secondary\" myop-id=\"button2\">made easy</button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"circle-1\"></div>\n        <div class=\"rect-1\"></div>\n        <div class=\"rect-2\"></div>\n        <div class=\"figure-1\">\n            <svg width=\"73\" height=\"50\" viewBox=\"0 0 73 50\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0 11.1756V-21.5191C0 -22.6162 0.870847 -23.4946 1.96507 -23.4162C7.96824 -22.9863 26.6378 -20.359 42.7293 -4.35753C54.8592 7.17118 67.0837 11.2199 71.3839 12.3594C72.3175 12.6068 73 13.4419 73 14.4077V47.4428C73 48.4589 72.2449 49.3171 71.2312 49.3873C60.002 50.1645 38.9496 47.219 27.6939 31.2076C18.6729 18.3751 9.25952 15.1159 1.51729 13.1226C0.627101 12.8934 0 12.0948 0 11.1756Z\"\n                    fill=\"#CEF17B\" />\n            </svg>\n        </div>\n        <div class=\"figure-2\">\n            <svg width=\"90\" height=\"89\" viewBox=\"0 0 90 89\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0.5 42.6187V1.98089C0.5 0.883866 1.38199 0.00473591 2.47683 0.073866C9.30645 0.5051 32.5853 3.44079 52.5946 23.3381C67.7338 37.7269 82.9939 42.5587 87.8862 43.812C88.8218 44.0516 89.5 44.885 89.5 45.8508V86.8827C89.5 87.8988 88.7472 88.7562 87.7341 88.834C74.1465 89.8775 48.1181 86.4062 34.2638 66.6982C23.1355 50.8682 11.5176 46.9874 2.01593 44.5639C1.12523 44.3367 0.5 43.5379 0.5 42.6187Z\"\n                    fill=\"#DECCFF\" fill-opacity=\"0.8\" />\n            </svg>\n        </div>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');\n\n        .container {\n            position: relative;\n            height: 460px;\n            width: 450px;\n            margin: auto;\n    \n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .circle-1 {\n            position: absolute;\n            width: 168px;\n            height: 158px;\n            background: #DCFF89;\n            border-radius: 50%;\n            z-index: -1;\n            right: 275px;\n            top: 45px;\n        }\n\n        .rect-1 {\n            position: absolute;\n            width: 55px;\n            height: 55px;\n            background: #A2E70099;\n            transform: rotate(135deg);\n            border-radius: 4px;\n            z-index: 2;\n            right: 215px;\n            top: 319px;\n        }\n\n        .rect-2 {\n            position: absolute;\n            width: 75px;\n            height: 75px;\n            background: #F0E8FF;\n            transform: rotate(-94.61deg);\n            border-radius: 8px;\n            z-index: -1;\n            right: 36px;\n            top: 36px;\n        }\n\n        .figure-1 {\n            position: absolute;\n            right: 215px;\n            top: 9px;\n            z-index: -1;\n        }\n\n        .figure-2 {\n            position: absolute;\n            right: 38px;\n            top: 320px;\n            z-index: 1;\n        }\n\n        .box {\n            position: absolute;\n            right: 0;\n            top: 30px;\n            width: 420px;\n            height: 420px;\n            background: linear-gradient(224.2deg, #FF8651 8.77%, #553CFF 84.21%);\n            box-shadow: 0px 4px 4px 0px #00000040;\n            border-radius: 50%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            transform: rotate(-15.1deg);\n        }\n\n        .content {\n            text-align: center;\n            color: #fff;\n            font-family: 'DM Sans';\n        }\n\n        .icon {\n            background: #fff;\n            border-radius: 50%;\n            border: 1px solid #5A595B;\n            padding: 10px;\n            width: 38px;\n            height: 38px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .icon>svg {\n            width: 43px;\n            height: 43px;\n        }\n\n        .icon.html5 {\n            margin-top: 48px;\n        }\n\n        .icon.myop {\n            margin-top: -32px;\n            margin-left: 37px;\n        }\n\n        .title {\n            font-weight: 600;\n            font-size: 19px;\n            line-height: 28px;\n            text-align: center;\n            margin-bottom: 0;\n        }\n\n        .subtitle {\n            font-weight: 400;\n            font-size: 16px;\n            line-height: 24px;\n            text-align: center;\n            margin-top: 0;\n            letter-spacing: 0.1px;\n            margin-bottom: 15px;\n        }\n\n        .buttons {\n            display: flex;\n            gap: 8px;\n            justify-content: center;\n        }\n\n        .button {\n            padding: 6px 15px;\n            font-size: 14px;\n            border-radius: 40px;\n            border: none;\n            cursor: pointer;\n        }\n\n        .button-primary {\n            background: #fff;\n            color: #000;\n        }\n\n        .button-secondary {\n            background: #343738;\n            border: 1px solid #5A595B;\n            color: #fff;\n        }\n    </style>\n\n    </div>\n\n \n",
+                  "shadowRootMode": "closed"
+                },
+                "id": "8b9300d3-855e-4ad6-ba23-881ae301d633"
+              }
+            ],
+            "defaultSkin": 0,
+            "createdOn": "2025-08-07T09:55:25.000Z"
+          }
+        ]
+      },
+      "instance": {
+        "id": "a0509727-f158-4241-bdd0-7a1da5e2fb78",
+        "componentId": "c8c55ce8-d902-4836-91cb-bad910f09cd4",
+        "componentName": "ReactTemplateComponent",
+        "skinSelector": {
+          "type": "Dedicated",
+          "skin": {
+            "id": "8db1d63e-e001-44bd-95b5-2130f145e450"
+          }
+        },
+        "nestedComponents": [],
+        "resolvedNestedComponents": [],
+        "resolvedExperiences": []
+      },
+      "name": "ReactTemplateComponent"
+    },
+    {
+      "type": {
+        "id": "c8c55ce8-d902-4836-91cb-bad910f09cd4",
+        "name": "ReactTemplateComponent",
+        "description": "fdfdfd",
+        "props": [],
+        "refs": [
+          {
+            "id": "",
+            "name": "button1",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button1",
+            "behavior": {
+              "type": "code"
+            }
+          },
+          {
+            "id": "",
+            "name": "button2",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button2",
+            "behavior": {
+              "type": "code"
+            }
+          },
+          {
+            "id": "",
+            "name": "ref_1",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "ref_1",
+            "behavior": {
+              "type": "code"
+            }
+          }
+        ],
+        "skins": [
+          {
+            "id": "8db1d63e-e001-44bd-95b5-2130f145e450",
+            "name": "Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            }
+          },
+          {
+            "id": "5b6762c3-a3fb-42c7-a322-5730086452ca",
+            "name": "Another nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo2",
+              "framework": "react"
+            }
+          },
+          {
+            "name": "copy of Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            },
+            "id": "b07e0f24-afff-49d1-92f7-a94a93eabc91"
+          },
+          {
+            "name": "copy of copy of Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "WebComponentLoader",
+              "url": "https://cdn.myop.dev/examples/react/assets/index-BaC297Rr.js",
+              "tag": "react-demo",
+              "framework": "react"
+            },
+            "id": "8acfd9dc-6049-46d3-bfa6-b4b415674b98"
+          }
+        ],
+        "defaultSkin": 0,
+        "createdOn": "2025-08-12T08:35:54.000Z",
+        "resolvedDefinitions": [
+          {
+            "id": "c6efaea7-db53-4507-a836-a9acffe787b1",
+            "name": "HTMLTemplateComponent",
+            "description": "",
+            "props": [],
+            "refs": [
+              {
+                "id": "",
+                "name": "button1",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button1",
+                "behavior": {
+                  "type": "code"
+                }
+              },
+              {
+                "id": "",
+                "name": "button2",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button2",
+                "behavior": {
+                  "type": "code"
+                }
+              }
+            ],
+            "skins": [
+              {
+                "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504",
+                "name": "Nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": "<div class=\"component-container\">\n    <div class=\"component-inner-container\">\n        <div class=\"icons-container\">\n            <span class=\"icon html-icon\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n                </span>\n\n            <span class=\"icon myop-icon\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n                </span>\n        </div>\n\n        <div class=\"content-text\">\n            <h2 class=\"title\">Hey! I’m a Myop HTML Component.</h2>\n            <p class=\"subtitle\">Push me to production with Myop</p>\n        </div>\n\n        <div class=\"buttons-container\">\n            <button myop-id=\"button1\" class=\"btn btn-outline\" myoop-id=\"buuton1\">\n                    Like it!\n                </button>\n\n            <button myop-id=\"button2\" class=\"btn btn-primary\" myoop-id=\"button2\">\n                    Cool\n                </button>\n        </div>\n    </div>\n\n    <style>\n       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n\n        .component-container {\n            width: 100%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .component-inner-container {\n            padding: 24px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: 272px;\n            height: 272px;\n            justify-content: center;\n            gap: 20px;\n            border-radius: 20px;\n            border: 1px solid #3E3D3E;\n        }\n\n        .icons-container {\n            display: flex;\n            position: relative;\n            margin-top: 27px;\n        }\n\n        .icon {\n            background-color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 57px;\n            height: 57px;\n            gap: 8px;\n            flex-shrink: 0;\n            aspect-ratio: 1/1;\n            border-radius: 800px;\n            border: 1px solid black;\n        }\n\n        .html-icon {\n            margin-top: -27px;\n        }\n\n        .myop-icon {\n            z-index: 1;\n            margin-left: -20px;\n        }\n\n        .html-icon svg,\n        .myop-icon svg {\n            width: 35px;\n            height: 35px;\n        }\n\n        .content-text {\n            text-align: center;\n        }\n\n        .title {\n            margin: 0;\n            color: #000;\n            font-size: 16px;\n            font-style: normal;\n            font-weight: 700;\n            line-height: 24px;\n        }\n\n        .subtitle {\n            margin: 0;\n            font-size: 14px;\n            font-style: normal;\n            font-weight: 400;\n            line-height: 18px;\n            color: #000;\n        }\n\n        .buttons-container {\n            display: flex;\n            gap: 8px;\n        }\n\n        .btn {\n            border: 1px solid #5A595B;\n            font-size: 14px;\n            cursor: pointer;\n            transition: all 0.2s;\n            border-radius: 40px;\n        }\n\n        .btn-outline {\n            padding: 6px 12px;\n            background-color: white;\n            color: #0A090A;\n        }\n\n        .btn-outline:hover {\n            background-color: #f5f5f5;\n        }\n\n        .btn-primary {\n            padding: 6px 18px;\n            color: white;\n            background-color: #343738;\n        }\n\n        .btn-primary:hover {\n            background-color: black;\n        }\n    </style>",
+                  "shadowRootMode": "closed"
+                }
+              },
+              {
+                "name": "Another nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": " <div class=\"container\">\n        <div class=\"box\">\n            <div class=\"icons\">\n                <div class=\"icon html5\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n\n                </div>\n                <div class=\"icon myop\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n\n                </div>\n\n            </div>\n            <div class=\"content\">\n                <h2 class=\"title\">Hi there! <br />\n                    I’m a Myop HTML Component</h2>\n                <p class=\"subtitle\">\n                    Push me to production with Myop\n                </p>\n                <div class=\"buttons\">\n                    <button class=\"button button-primary\" myop-id=\"button1\">UI</button>\n                    <button class=\"button button-secondary\" myop-id=\"button2\">made easy</button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"circle-1\"></div>\n        <div class=\"rect-1\"></div>\n        <div class=\"rect-2\"></div>\n        <div class=\"figure-1\">\n            <svg width=\"73\" height=\"50\" viewBox=\"0 0 73 50\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0 11.1756V-21.5191C0 -22.6162 0.870847 -23.4946 1.96507 -23.4162C7.96824 -22.9863 26.6378 -20.359 42.7293 -4.35753C54.8592 7.17118 67.0837 11.2199 71.3839 12.3594C72.3175 12.6068 73 13.4419 73 14.4077V47.4428C73 48.4589 72.2449 49.3171 71.2312 49.3873C60.002 50.1645 38.9496 47.219 27.6939 31.2076C18.6729 18.3751 9.25952 15.1159 1.51729 13.1226C0.627101 12.8934 0 12.0948 0 11.1756Z\"\n                    fill=\"#CEF17B\" />\n            </svg>\n        </div>\n        <div class=\"figure-2\">\n            <svg width=\"90\" height=\"89\" viewBox=\"0 0 90 89\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0.5 42.6187V1.98089C0.5 0.883866 1.38199 0.00473591 2.47683 0.073866C9.30645 0.5051 32.5853 3.44079 52.5946 23.3381C67.7338 37.7269 82.9939 42.5587 87.8862 43.812C88.8218 44.0516 89.5 44.885 89.5 45.8508V86.8827C89.5 87.8988 88.7472 88.7562 87.7341 88.834C74.1465 89.8775 48.1181 86.4062 34.2638 66.6982C23.1355 50.8682 11.5176 46.9874 2.01593 44.5639C1.12523 44.3367 0.5 43.5379 0.5 42.6187Z\"\n                    fill=\"#DECCFF\" fill-opacity=\"0.8\" />\n            </svg>\n        </div>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');\n\n        .container {\n            position: relative;\n            height: 460px;\n            width: 450px;\n            margin: auto;\n    \n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .circle-1 {\n            position: absolute;\n            width: 168px;\n            height: 158px;\n            background: #DCFF89;\n            border-radius: 50%;\n            z-index: -1;\n            right: 275px;\n            top: 45px;\n        }\n\n        .rect-1 {\n            position: absolute;\n            width: 55px;\n            height: 55px;\n            background: #A2E70099;\n            transform: rotate(135deg);\n            border-radius: 4px;\n            z-index: 2;\n            right: 215px;\n            top: 319px;\n        }\n\n        .rect-2 {\n            position: absolute;\n            width: 75px;\n            height: 75px;\n            background: #F0E8FF;\n            transform: rotate(-94.61deg);\n            border-radius: 8px;\n            z-index: -1;\n            right: 36px;\n            top: 36px;\n        }\n\n        .figure-1 {\n            position: absolute;\n            right: 215px;\n            top: 9px;\n            z-index: -1;\n        }\n\n        .figure-2 {\n            position: absolute;\n            right: 38px;\n            top: 320px;\n            z-index: 1;\n        }\n\n        .box {\n            position: absolute;\n            right: 0;\n            top: 30px;\n            width: 420px;\n            height: 420px;\n            background: linear-gradient(224.2deg, #FF8651 8.77%, #553CFF 84.21%);\n            box-shadow: 0px 4px 4px 0px #00000040;\n            border-radius: 50%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            transform: rotate(-15.1deg);\n        }\n\n        .content {\n            text-align: center;\n            color: #fff;\n            font-family: 'DM Sans';\n        }\n\n        .icon {\n            background: #fff;\n            border-radius: 50%;\n            border: 1px solid #5A595B;\n            padding: 10px;\n            width: 38px;\n            height: 38px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .icon>svg {\n            width: 43px;\n            height: 43px;\n        }\n\n        .icon.html5 {\n            margin-top: 48px;\n        }\n\n        .icon.myop {\n            margin-top: -32px;\n            margin-left: 37px;\n        }\n\n        .title {\n            font-weight: 600;\n            font-size: 19px;\n            line-height: 28px;\n            text-align: center;\n            margin-bottom: 0;\n        }\n\n        .subtitle {\n            font-weight: 400;\n            font-size: 16px;\n            line-height: 24px;\n            text-align: center;\n            margin-top: 0;\n            letter-spacing: 0.1px;\n            margin-bottom: 15px;\n        }\n\n        .buttons {\n            display: flex;\n            gap: 8px;\n            justify-content: center;\n        }\n\n        .button {\n            padding: 6px 15px;\n            font-size: 14px;\n            border-radius: 40px;\n            border: none;\n            cursor: pointer;\n        }\n\n        .button-primary {\n            background: #fff;\n            color: #000;\n        }\n\n        .button-secondary {\n            background: #343738;\n            border: 1px solid #5A595B;\n            color: #fff;\n        }\n    </style>\n\n    </div>\n\n \n",
+                  "shadowRootMode": "closed"
+                },
+                "id": "8b9300d3-855e-4ad6-ba23-881ae301d633"
+              }
+            ],
+            "defaultSkin": 0,
+            "createdOn": "2025-08-07T09:55:25.000Z"
+          }
+        ]
+      },
+      "instance": {
+        "id": "46397247-b56f-40ed-aeab-db53eb655e9f",
+        "componentId": "c8c55ce8-d902-4836-91cb-bad910f09cd4",
+        "componentName": "ReactTemplateComponent",
+        "skinSelector": {
+          "type": "Dedicated",
+          "skin": {
+            "id": "8db1d63e-e001-44bd-95b5-2130f145e450"
+          }
+        },
+        "nestedComponents": [],
+        "resolvedNestedComponents": [],
+        "resolvedExperiences": []
+      },
+      "name": "ReactTemplateComponent"
+    },
+    {
+      "type": {
+        "id": "e095cc7a-89df-4cae-9084-39842fc6a1a0",
+        "name": "compositeHtml",
+        "description": "",
+        "props": [],
+        "refs": [
+          {
+            "id": "",
+            "name": "button1",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button1",
+            "behavior": {
+              "type": "component",
+              "componentId": "c6efaea7-db53-4507-a836-a9acffe787b1"
+            }
+          },
+          {
+            "id": "",
+            "name": "button2",
+            "description": "",
+            "selectorType": "id-attribute",
+            "selector": "button2",
+            "behavior": {
+              "type": "code"
+            }
+          }
+        ],
+        "skins": [
+          {
+            "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504",
+            "name": "Nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "HTMLLoader",
+              "HTML": "<div class=\"component-container\">\n    <div class=\"component-inner-container\">\n        <div class=\"icons-container\">\n            <span class=\"icon html-icon\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n                </span>\n\n            <span class=\"icon myop-icon\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n                </span>\n        </div>\n\n        <div class=\"content-text\">\n            <h2 class=\"title\">Hey! I’m a Myop HTML Component.</h2>\n            <p class=\"subtitle\">Push me to production with Myop</p>\n        </div>\n\n        <div class=\"buttons-container\">\n            <button myop-id=\"button1\" class=\"btn btn-outline\" myoop-id=\"buuton1\">\n                    Like it!\n                </button>\n\n            <button myop-id=\"button2\" class=\"btn btn-primary\" myoop-id=\"button2\">\n                    Cool\n                </button>\n        </div>\n    </div>\n\n    <style>\n       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n\n        .component-container {\n            width: 100%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .component-inner-container {\n            padding: 24px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: 272px;\n            height: 272px;\n            justify-content: center;\n            gap: 20px;\n            border-radius: 20px;\n            border: 1px solid #3E3D3E;\n        }\n\n        .icons-container {\n            display: flex;\n            position: relative;\n            margin-top: 27px;\n        }\n\n        .icon {\n            background-color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 57px;\n            height: 57px;\n            gap: 8px;\n            flex-shrink: 0;\n            aspect-ratio: 1/1;\n            border-radius: 800px;\n            border: 1px solid black;\n        }\n\n        .html-icon {\n            margin-top: -27px;\n        }\n\n        .myop-icon {\n            z-index: 1;\n            margin-left: -20px;\n        }\n\n        .html-icon svg,\n        .myop-icon svg {\n            width: 35px;\n            height: 35px;\n        }\n\n        .content-text {\n            text-align: center;\n        }\n\n        .title {\n            margin: 0;\n            color: #000;\n            font-size: 16px;\n            font-style: normal;\n            font-weight: 700;\n            line-height: 24px;\n        }\n\n        .subtitle {\n            margin: 0;\n            font-size: 14px;\n            font-style: normal;\n            font-weight: 400;\n            line-height: 18px;\n            color: #000;\n        }\n\n        .buttons-container {\n            display: flex;\n            gap: 8px;\n        }\n\n        .btn {\n            border: 1px solid #5A595B;\n            font-size: 14px;\n            cursor: pointer;\n            transition: all 0.2s;\n            border-radius: 40px;\n        }\n\n        .btn-outline {\n            padding: 6px 12px;\n            background-color: white;\n            color: #0A090A;\n        }\n\n        .btn-outline:hover {\n            background-color: #f5f5f5;\n        }\n\n        .btn-primary {\n            padding: 6px 18px;\n            color: white;\n            background-color: #343738;\n        }\n\n        .btn-primary:hover {\n            background-color: black;\n        }\n    </style>",
+              "shadowRootMode": "closed"
+            }
+          },
+          {
+            "name": "Another nice variant",
+            "description": "Untitled variant description",
+            "loader": {
+              "type": "HTMLLoader",
+              "HTML": " <div class=\"container\">\n        <div class=\"box\">\n            <div class=\"icons\">\n                <div class=\"icon html5\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n\n                </div>\n                <div class=\"icon myop\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n\n                </div>\n\n            </div>\n            <div class=\"content\">\n                <h2 class=\"title\">Hi there! <br />\n                    I’m a Myop HTML Component</h2>\n                <p class=\"subtitle\">\n                    Push me to production with Myop\n                </p>\n                <div class=\"buttons\">\n                    <button class=\"button button-primary\" myop-id=\"button1\">UI</button>\n                    <button class=\"button button-secondary\" myop-id=\"button2\">made easy</button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"circle-1\"></div>\n        <div class=\"rect-1\"></div>\n        <div class=\"rect-2\"></div>\n        <div class=\"figure-1\">\n            <svg width=\"73\" height=\"50\" viewBox=\"0 0 73 50\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0 11.1756V-21.5191C0 -22.6162 0.870847 -23.4946 1.96507 -23.4162C7.96824 -22.9863 26.6378 -20.359 42.7293 -4.35753C54.8592 7.17118 67.0837 11.2199 71.3839 12.3594C72.3175 12.6068 73 13.4419 73 14.4077V47.4428C73 48.4589 72.2449 49.3171 71.2312 49.3873C60.002 50.1645 38.9496 47.219 27.6939 31.2076C18.6729 18.3751 9.25952 15.1159 1.51729 13.1226C0.627101 12.8934 0 12.0948 0 11.1756Z\"\n                    fill=\"#CEF17B\" />\n            </svg>\n        </div>\n        <div class=\"figure-2\">\n            <svg width=\"90\" height=\"89\" viewBox=\"0 0 90 89\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0.5 42.6187V1.98089C0.5 0.883866 1.38199 0.00473591 2.47683 0.073866C9.30645 0.5051 32.5853 3.44079 52.5946 23.3381C67.7338 37.7269 82.9939 42.5587 87.8862 43.812C88.8218 44.0516 89.5 44.885 89.5 45.8508V86.8827C89.5 87.8988 88.7472 88.7562 87.7341 88.834C74.1465 89.8775 48.1181 86.4062 34.2638 66.6982C23.1355 50.8682 11.5176 46.9874 2.01593 44.5639C1.12523 44.3367 0.5 43.5379 0.5 42.6187Z\"\n                    fill=\"#DECCFF\" fill-opacity=\"0.8\" />\n            </svg>\n        </div>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');\n\n        .container {\n            position: relative;\n            height: 460px;\n            width: 450px;\n            margin: auto;\n    \n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .circle-1 {\n            position: absolute;\n            width: 168px;\n            height: 158px;\n            background: #DCFF89;\n            border-radius: 50%;\n            z-index: -1;\n            right: 275px;\n            top: 45px;\n        }\n\n        .rect-1 {\n            position: absolute;\n            width: 55px;\n            height: 55px;\n            background: #A2E70099;\n            transform: rotate(135deg);\n            border-radius: 4px;\n            z-index: 2;\n            right: 215px;\n            top: 319px;\n        }\n\n        .rect-2 {\n            position: absolute;\n            width: 75px;\n            height: 75px;\n            background: #F0E8FF;\n            transform: rotate(-94.61deg);\n            border-radius: 8px;\n            z-index: -1;\n            right: 36px;\n            top: 36px;\n        }\n\n        .figure-1 {\n            position: absolute;\n            right: 215px;\n            top: 9px;\n            z-index: -1;\n        }\n\n        .figure-2 {\n            position: absolute;\n            right: 38px;\n            top: 320px;\n            z-index: 1;\n        }\n\n        .box {\n            position: absolute;\n            right: 0;\n            top: 30px;\n            width: 420px;\n            height: 420px;\n            background: linear-gradient(224.2deg, #FF8651 8.77%, #553CFF 84.21%);\n            box-shadow: 0px 4px 4px 0px #00000040;\n            border-radius: 50%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            transform: rotate(-15.1deg);\n        }\n\n        .content {\n            text-align: center;\n            color: #fff;\n            font-family: 'DM Sans';\n        }\n\n        .icon {\n            background: #fff;\n            border-radius: 50%;\n            border: 1px solid #5A595B;\n            padding: 10px;\n            width: 38px;\n            height: 38px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .icon>svg {\n            width: 43px;\n            height: 43px;\n        }\n\n        .icon.html5 {\n            margin-top: 48px;\n        }\n\n        .icon.myop {\n            margin-top: -32px;\n            margin-left: 37px;\n        }\n\n        .title {\n            font-weight: 600;\n            font-size: 19px;\n            line-height: 28px;\n            text-align: center;\n            margin-bottom: 0;\n        }\n\n        .subtitle {\n            font-weight: 400;\n            font-size: 16px;\n            line-height: 24px;\n            text-align: center;\n            margin-top: 0;\n            letter-spacing: 0.1px;\n            margin-bottom: 15px;\n        }\n\n        .buttons {\n            display: flex;\n            gap: 8px;\n            justify-content: center;\n        }\n\n        .button {\n            padding: 6px 15px;\n            font-size: 14px;\n            border-radius: 40px;\n            border: none;\n            cursor: pointer;\n        }\n\n        .button-primary {\n            background: #fff;\n            color: #000;\n        }\n\n        .button-secondary {\n            background: #343738;\n            border: 1px solid #5A595B;\n            color: #fff;\n        }\n    </style>\n\n    </div>\n\n \n",
+              "shadowRootMode": "closed"
+            },
+            "id": "8b9300d3-855e-4ad6-ba23-881ae301d633"
+          }
+        ],
+        "defaultSkin": 0,
+        "createdOn": "2025-08-10T08:37:57.000Z",
+        "resolvedDefinitions": [
+          {
+            "id": "c6efaea7-db53-4507-a836-a9acffe787b1",
+            "name": "HTMLTemplateComponent",
+            "description": "",
+            "props": [],
+            "refs": [
+              {
+                "id": "",
+                "name": "button1",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button1",
+                "behavior": {
+                  "type": "code"
+                }
+              },
+              {
+                "id": "",
+                "name": "button2",
+                "description": "",
+                "selectorType": "id-attribute",
+                "selector": "button2",
+                "behavior": {
+                  "type": "code"
+                }
+              }
+            ],
+            "skins": [
+              {
+                "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504",
+                "name": "Nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": "<div class=\"component-container\">\n    <div class=\"component-inner-container\">\n        <div class=\"icons-container\">\n            <span class=\"icon html-icon\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n                </span>\n\n            <span class=\"icon myop-icon\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n                </span>\n        </div>\n\n        <div class=\"content-text\">\n            <h2 class=\"title\">Hey! I’m a Myop HTML Component.</h2>\n            <p class=\"subtitle\">Push me to production with Myop</p>\n        </div>\n\n        <div class=\"buttons-container\">\n            <button myop-id=\"button1\" class=\"btn btn-outline\" myoop-id=\"buuton1\">\n                    Like it!\n                </button>\n\n            <button myop-id=\"button2\" class=\"btn btn-primary\" myoop-id=\"button2\">\n                    Cool\n                </button>\n        </div>\n    </div>\n\n    <style>\n       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n\n        .component-container {\n            width: 100%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .component-inner-container {\n            padding: 24px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: 272px;\n            height: 272px;\n            justify-content: center;\n            gap: 20px;\n            border-radius: 20px;\n            border: 1px solid #3E3D3E;\n        }\n\n        .icons-container {\n            display: flex;\n            position: relative;\n            margin-top: 27px;\n        }\n\n        .icon {\n            background-color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 57px;\n            height: 57px;\n            gap: 8px;\n            flex-shrink: 0;\n            aspect-ratio: 1/1;\n            border-radius: 800px;\n            border: 1px solid black;\n        }\n\n        .html-icon {\n            margin-top: -27px;\n        }\n\n        .myop-icon {\n            z-index: 1;\n            margin-left: -20px;\n        }\n\n        .html-icon svg,\n        .myop-icon svg {\n            width: 35px;\n            height: 35px;\n        }\n\n        .content-text {\n            text-align: center;\n        }\n\n        .title {\n            margin: 0;\n            color: #000;\n            font-size: 16px;\n            font-style: normal;\n            font-weight: 700;\n            line-height: 24px;\n        }\n\n        .subtitle {\n            margin: 0;\n            font-size: 14px;\n            font-style: normal;\n            font-weight: 400;\n            line-height: 18px;\n            color: #000;\n        }\n\n        .buttons-container {\n            display: flex;\n            gap: 8px;\n        }\n\n        .btn {\n            border: 1px solid #5A595B;\n            font-size: 14px;\n            cursor: pointer;\n            transition: all 0.2s;\n            border-radius: 40px;\n        }\n\n        .btn-outline {\n            padding: 6px 12px;\n            background-color: white;\n            color: #0A090A;\n        }\n\n        .btn-outline:hover {\n            background-color: #f5f5f5;\n        }\n\n        .btn-primary {\n            padding: 6px 18px;\n            color: white;\n            background-color: #343738;\n        }\n\n        .btn-primary:hover {\n            background-color: black;\n        }\n    </style>",
+                  "shadowRootMode": "closed"
+                }
+              },
+              {
+                "name": "Another nice variant",
+                "description": "Untitled variant description",
+                "loader": {
+                  "type": "HTMLLoader",
+                  "HTML": " <div class=\"container\">\n        <div class=\"box\">\n            <div class=\"icons\">\n                <div class=\"icon html5\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n\n                </div>\n                <div class=\"icon myop\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n\n                </div>\n\n            </div>\n            <div class=\"content\">\n                <h2 class=\"title\">Hi there! <br />\n                    I’m a Myop HTML Component</h2>\n                <p class=\"subtitle\">\n                    Push me to production with Myop\n                </p>\n                <div class=\"buttons\">\n                    <button class=\"button button-primary\" myop-id=\"button1\">UI</button>\n                    <button class=\"button button-secondary\" myop-id=\"button2\">made easy</button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"circle-1\"></div>\n        <div class=\"rect-1\"></div>\n        <div class=\"rect-2\"></div>\n        <div class=\"figure-1\">\n            <svg width=\"73\" height=\"50\" viewBox=\"0 0 73 50\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0 11.1756V-21.5191C0 -22.6162 0.870847 -23.4946 1.96507 -23.4162C7.96824 -22.9863 26.6378 -20.359 42.7293 -4.35753C54.8592 7.17118 67.0837 11.2199 71.3839 12.3594C72.3175 12.6068 73 13.4419 73 14.4077V47.4428C73 48.4589 72.2449 49.3171 71.2312 49.3873C60.002 50.1645 38.9496 47.219 27.6939 31.2076C18.6729 18.3751 9.25952 15.1159 1.51729 13.1226C0.627101 12.8934 0 12.0948 0 11.1756Z\"\n                    fill=\"#CEF17B\" />\n            </svg>\n        </div>\n        <div class=\"figure-2\">\n            <svg width=\"90\" height=\"89\" viewBox=\"0 0 90 89\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0.5 42.6187V1.98089C0.5 0.883866 1.38199 0.00473591 2.47683 0.073866C9.30645 0.5051 32.5853 3.44079 52.5946 23.3381C67.7338 37.7269 82.9939 42.5587 87.8862 43.812C88.8218 44.0516 89.5 44.885 89.5 45.8508V86.8827C89.5 87.8988 88.7472 88.7562 87.7341 88.834C74.1465 89.8775 48.1181 86.4062 34.2638 66.6982C23.1355 50.8682 11.5176 46.9874 2.01593 44.5639C1.12523 44.3367 0.5 43.5379 0.5 42.6187Z\"\n                    fill=\"#DECCFF\" fill-opacity=\"0.8\" />\n            </svg>\n        </div>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');\n\n        .container {\n            position: relative;\n            height: 460px;\n            width: 450px;\n            margin: auto;\n    \n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .circle-1 {\n            position: absolute;\n            width: 168px;\n            height: 158px;\n            background: #DCFF89;\n            border-radius: 50%;\n            z-index: -1;\n            right: 275px;\n            top: 45px;\n        }\n\n        .rect-1 {\n            position: absolute;\n            width: 55px;\n            height: 55px;\n            background: #A2E70099;\n            transform: rotate(135deg);\n            border-radius: 4px;\n            z-index: 2;\n            right: 215px;\n            top: 319px;\n        }\n\n        .rect-2 {\n            position: absolute;\n            width: 75px;\n            height: 75px;\n            background: #F0E8FF;\n            transform: rotate(-94.61deg);\n            border-radius: 8px;\n            z-index: -1;\n            right: 36px;\n            top: 36px;\n        }\n\n        .figure-1 {\n            position: absolute;\n            right: 215px;\n            top: 9px;\n            z-index: -1;\n        }\n\n        .figure-2 {\n            position: absolute;\n            right: 38px;\n            top: 320px;\n            z-index: 1;\n        }\n\n        .box {\n            position: absolute;\n            right: 0;\n            top: 30px;\n            width: 420px;\n            height: 420px;\n            background: linear-gradient(224.2deg, #FF8651 8.77%, #553CFF 84.21%);\n            box-shadow: 0px 4px 4px 0px #00000040;\n            border-radius: 50%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            transform: rotate(-15.1deg);\n        }\n\n        .content {\n            text-align: center;\n            color: #fff;\n            font-family: 'DM Sans';\n        }\n\n        .icon {\n            background: #fff;\n            border-radius: 50%;\n            border: 1px solid #5A595B;\n            padding: 10px;\n            width: 38px;\n            height: 38px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .icon>svg {\n            width: 43px;\n            height: 43px;\n        }\n\n        .icon.html5 {\n            margin-top: 48px;\n        }\n\n        .icon.myop {\n            margin-top: -32px;\n            margin-left: 37px;\n        }\n\n        .title {\n            font-weight: 600;\n            font-size: 19px;\n            line-height: 28px;\n            text-align: center;\n            margin-bottom: 0;\n        }\n\n        .subtitle {\n            font-weight: 400;\n            font-size: 16px;\n            line-height: 24px;\n            text-align: center;\n            margin-top: 0;\n            letter-spacing: 0.1px;\n            margin-bottom: 15px;\n        }\n\n        .buttons {\n            display: flex;\n            gap: 8px;\n            justify-content: center;\n        }\n\n        .button {\n            padding: 6px 15px;\n            font-size: 14px;\n            border-radius: 40px;\n            border: none;\n            cursor: pointer;\n        }\n\n        .button-primary {\n            background: #fff;\n            color: #000;\n        }\n\n        .button-secondary {\n            background: #343738;\n            border: 1px solid #5A595B;\n            color: #fff;\n        }\n    </style>\n\n    </div>\n\n \n",
+                  "shadowRootMode": "closed"
+                },
+                "id": "8b9300d3-855e-4ad6-ba23-881ae301d633"
+              }
+            ],
+            "defaultSkin": 0,
+            "createdOn": "2025-08-07T09:55:25.000Z"
+          }
+        ]
+      },
+      "instance": {
+        "id": "7cd3a0f5-bb09-4229-bb6a-535c64cc8163",
+        "componentId": "e095cc7a-89df-4cae-9084-39842fc6a1a0",
+        "componentName": "compositeHtml",
+        "skinSelector": {
+          "type": "Dedicated",
+          "skin": {
+            "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504"
+          }
+        },
+        "nestedComponents": [
+          {
+            "id": "176fafb2-f375-4e5b-aa40-f1dd129bac77",
+            "componentId": "c6efaea7-db53-4507-a836-a9acffe787b1",
+            "componentName": "HTMLTemplateComponent",
+            "skinSelector": {
+              "type": "Dedicated",
+              "skin": {
+                "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504"
+              }
+            },
+            "nestedComponents": [],
+            "resolvedNestedComponents": []
+          }
+        ],
+        "resolvedNestedComponents": [
+          {
+            "type": {
+              "id": "c6efaea7-db53-4507-a836-a9acffe787b1",
+              "name": "HTMLTemplateComponent",
+              "description": "",
+              "props": [],
+              "refs": [
+                {
+                  "id": "",
+                  "name": "button1",
+                  "description": "",
+                  "selectorType": "id-attribute",
+                  "selector": "button1",
+                  "behavior": {
+                    "type": "code"
+                  }
+                },
+                {
+                  "id": "",
+                  "name": "button2",
+                  "description": "",
+                  "selectorType": "id-attribute",
+                  "selector": "button2",
+                  "behavior": {
+                    "type": "code"
+                  }
+                }
+              ],
+              "skins": [
+                {
+                  "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504",
+                  "name": "Nice variant",
+                  "description": "Untitled variant description",
+                  "loader": {
+                    "type": "HTMLLoader",
+                    "HTML": "<div class=\"component-container\">\n    <div class=\"component-inner-container\">\n        <div class=\"icons-container\">\n            <span class=\"icon html-icon\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n                </span>\n\n            <span class=\"icon myop-icon\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n                </span>\n        </div>\n\n        <div class=\"content-text\">\n            <h2 class=\"title\">Hey! I’m a Myop HTML Component.</h2>\n            <p class=\"subtitle\">Push me to production with Myop</p>\n        </div>\n\n        <div class=\"buttons-container\">\n            <button myop-id=\"button1\" class=\"btn btn-outline\" myoop-id=\"buuton1\">\n                    Like it!\n                </button>\n\n            <button myop-id=\"button2\" class=\"btn btn-primary\" myoop-id=\"button2\">\n                    Cool\n                </button>\n        </div>\n    </div>\n\n    <style>\n       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');\n\n        .component-container {\n            width: 100%;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .component-inner-container {\n            padding: 24px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            width: 272px;\n            height: 272px;\n            justify-content: center;\n            gap: 20px;\n            border-radius: 20px;\n            border: 1px solid #3E3D3E;\n        }\n\n        .icons-container {\n            display: flex;\n            position: relative;\n            margin-top: 27px;\n        }\n\n        .icon {\n            background-color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            width: 57px;\n            height: 57px;\n            gap: 8px;\n            flex-shrink: 0;\n            aspect-ratio: 1/1;\n            border-radius: 800px;\n            border: 1px solid black;\n        }\n\n        .html-icon {\n            margin-top: -27px;\n        }\n\n        .myop-icon {\n            z-index: 1;\n            margin-left: -20px;\n        }\n\n        .html-icon svg,\n        .myop-icon svg {\n            width: 35px;\n            height: 35px;\n        }\n\n        .content-text {\n            text-align: center;\n        }\n\n        .title {\n            margin: 0;\n            color: #000;\n            font-size: 16px;\n            font-style: normal;\n            font-weight: 700;\n            line-height: 24px;\n        }\n\n        .subtitle {\n            margin: 0;\n            font-size: 14px;\n            font-style: normal;\n            font-weight: 400;\n            line-height: 18px;\n            color: #000;\n        }\n\n        .buttons-container {\n            display: flex;\n            gap: 8px;\n        }\n\n        .btn {\n            border: 1px solid #5A595B;\n            font-size: 14px;\n            cursor: pointer;\n            transition: all 0.2s;\n            border-radius: 40px;\n        }\n\n        .btn-outline {\n            padding: 6px 12px;\n            background-color: white;\n            color: #0A090A;\n        }\n\n        .btn-outline:hover {\n            background-color: #f5f5f5;\n        }\n\n        .btn-primary {\n            padding: 6px 18px;\n            color: white;\n            background-color: #343738;\n        }\n\n        .btn-primary:hover {\n            background-color: black;\n        }\n    </style>",
+                    "shadowRootMode": "closed"
+                  }
+                },
+                {
+                  "name": "Another nice variant",
+                  "description": "Untitled variant description",
+                  "loader": {
+                    "type": "HTMLLoader",
+                    "HTML": " <div class=\"container\">\n        <div class=\"box\">\n            <div class=\"icons\">\n                <div class=\"icon html5\">\n                    <svg width=\"36\" height=\"35\" viewBox=\"0 0 36 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <g clip-path=\"url(#clip0_10369_62187)\">\n                            <g clip-path=\"url(#clip1_10369_62187)\">\n                                <path\n                                    d=\"M25.5821 2.73566L3.94531 8.5332L11.6901 29.8007L21.2859 29.9758L29.5086 25.0263L25.5821 2.73566Z\"\n                                    fill=\"#E65100\" />\n                                <path\n                                    d=\"M15.2793 7.55566L20.7545 27.9896L27.3327 24.03L23.9976 5.21959L15.2793 7.55566Z\"\n                                    fill=\"#FF6D00\" />\n                                <path\n                                    d=\"M18.1964 18.4455L17.5098 15.8833L22.9826 14.4168L24.511 21.9027L19.9299 24.9152L19.209 22.2248L21.5779 20.6289L20.9964 17.6953L18.1964 18.4455ZM22.487 11.8034L21.9914 9.19004L16.1367 10.7588L16.8233 13.321L22.487 11.8034Z\"\n                                    fill=\"white\" />\n                                <path\n                                    d=\"M19.209 22.2249L19.9299 24.9153L14.4563 24.5969L13.2577 21.142L15.8032 20.4599L16.3596 22.0272L19.209 22.2249ZM13.705 14.1566L16.8233 13.3211L16.1367 10.7589L10.3457 12.3105L12.8508 19.8779L18.1964 18.4456L17.5098 15.8833L14.5825 16.6677L13.705 14.1566Z\"\n                                    fill=\"#EEEEEE\" />\n                            </g>\n                        </g>\n                        <defs>\n                            <clipPath id=\"clip0_10369_62187\">\n                                <rect x=\"0.878906\" y=\"7.90527\" width=\"28\" height=\"28\" rx=\"2\"\n                                    transform=\"rotate(-15 0.878906 7.90527)\" fill=\"white\" />\n                            </clipPath>\n                            <clipPath id=\"clip1_10369_62187\">\n                                <rect width=\"22.4\" height=\"25.2\" fill=\"white\"\n                                    transform=\"translate(3.94531 8.5332) rotate(-15)\" />\n                            </clipPath>\n                        </defs>\n                    </svg>\n\n                </div>\n                <div class=\"icon myop\">\n                    <svg width=\"31\" height=\"21\" viewBox=\"0 0 31 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                        style=\"transform: rotate(15deg)\">\n                        <path\n                            d=\"M7.33882 9.01224C7.85155 10.9258 6.83175 12.8617 5.06102 13.3361C3.29029 13.8106 1.43917 12.644 0.926438 10.7304C0.413702 8.81687 1.43351 6.88099 3.20424 6.40653C4.97497 5.93206 6.82608 7.09868 7.33882 9.01224Z\"\n                            fill=\"#0A090A\" />\n                        <path\n                            d=\"M7.81467 5.62297L9.45097 11.7297C9.49099 11.8791 9.63445 11.9696 9.77347 11.9394C10.9229 11.6904 12.4931 11.7819 14.746 13.6819C17.6264 16.1112 22.3506 15.9004 24.367 15.2173C24.4917 15.175 24.5554 15.0331 24.5183 14.8949L23.0966 9.58879C23.0346 9.31568 22.9737 8.91426 23.093 8.72475C23.2044 8.54781 23.4341 8.43245 23.6054 8.3672L28.652 7.01497C28.7894 6.97817 28.8683 6.82724 28.8283 6.67787L27.1755 0.509729C27.1355 0.360358 26.9917 0.269107 26.8543 0.305915L21.1435 1.83613C21.0061 1.87294 20.9272 2.02386 20.9673 2.17324L22.3961 7.50594C22.452 7.78435 22.4818 8.0831 22.396 8.2205C22.2682 8.42491 22.0195 8.49557 21.881 8.51959C20.4922 8.60764 19.6763 8.39771 16.3288 6.27732C12.9726 4.15145 9.44414 4.9089 7.99043 5.28676C7.85279 5.32254 7.77465 5.4736 7.81467 5.62297Z\"\n                            fill=\"#0A090A\" />\n                    </svg>\n\n                </div>\n\n            </div>\n            <div class=\"content\">\n                <h2 class=\"title\">Hi there! <br />\n                    I’m a Myop HTML Component</h2>\n                <p class=\"subtitle\">\n                    Push me to production with Myop\n                </p>\n                <div class=\"buttons\">\n                    <button class=\"button button-primary\" myop-id=\"button1\">UI</button>\n                    <button class=\"button button-secondary\" myop-id=\"button2\">made easy</button>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"circle-1\"></div>\n        <div class=\"rect-1\"></div>\n        <div class=\"rect-2\"></div>\n        <div class=\"figure-1\">\n            <svg width=\"73\" height=\"50\" viewBox=\"0 0 73 50\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0 11.1756V-21.5191C0 -22.6162 0.870847 -23.4946 1.96507 -23.4162C7.96824 -22.9863 26.6378 -20.359 42.7293 -4.35753C54.8592 7.17118 67.0837 11.2199 71.3839 12.3594C72.3175 12.6068 73 13.4419 73 14.4077V47.4428C73 48.4589 72.2449 49.3171 71.2312 49.3873C60.002 50.1645 38.9496 47.219 27.6939 31.2076C18.6729 18.3751 9.25952 15.1159 1.51729 13.1226C0.627101 12.8934 0 12.0948 0 11.1756Z\"\n                    fill=\"#CEF17B\" />\n            </svg>\n        </div>\n        <div class=\"figure-2\">\n            <svg width=\"90\" height=\"89\" viewBox=\"0 0 90 89\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path\n                    d=\"M0.5 42.6187V1.98089C0.5 0.883866 1.38199 0.00473591 2.47683 0.073866C9.30645 0.5051 32.5853 3.44079 52.5946 23.3381C67.7338 37.7269 82.9939 42.5587 87.8862 43.812C88.8218 44.0516 89.5 44.885 89.5 45.8508V86.8827C89.5 87.8988 88.7472 88.7562 87.7341 88.834C74.1465 89.8775 48.1181 86.4062 34.2638 66.6982C23.1355 50.8682 11.5176 46.9874 2.01593 44.5639C1.12523 44.3367 0.5 43.5379 0.5 42.6187Z\"\n                    fill=\"#DECCFF\" fill-opacity=\"0.8\" />\n            </svg>\n        </div>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');\n\n        .container {\n            position: relative;\n            height: 460px;\n            width: 450px;\n            margin: auto;\n    \n            display: flex;\n            justify-content: center;\n            align-items: center;\n            font-family: \"DM Sans\", sans-serif;\n        }\n\n        .circle-1 {\n            position: absolute;\n            width: 168px;\n            height: 158px;\n            background: #DCFF89;\n            border-radius: 50%;\n            z-index: -1;\n            right: 275px;\n            top: 45px;\n        }\n\n        .rect-1 {\n            position: absolute;\n            width: 55px;\n            height: 55px;\n            background: #A2E70099;\n            transform: rotate(135deg);\n            border-radius: 4px;\n            z-index: 2;\n            right: 215px;\n            top: 319px;\n        }\n\n        .rect-2 {\n            position: absolute;\n            width: 75px;\n            height: 75px;\n            background: #F0E8FF;\n            transform: rotate(-94.61deg);\n            border-radius: 8px;\n            z-index: -1;\n            right: 36px;\n            top: 36px;\n        }\n\n        .figure-1 {\n            position: absolute;\n            right: 215px;\n            top: 9px;\n            z-index: -1;\n        }\n\n        .figure-2 {\n            position: absolute;\n            right: 38px;\n            top: 320px;\n            z-index: 1;\n        }\n\n        .box {\n            position: absolute;\n            right: 0;\n            top: 30px;\n            width: 420px;\n            height: 420px;\n            background: linear-gradient(224.2deg, #FF8651 8.77%, #553CFF 84.21%);\n            box-shadow: 0px 4px 4px 0px #00000040;\n            border-radius: 50%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            transform: rotate(-15.1deg);\n        }\n\n        .content {\n            text-align: center;\n            color: #fff;\n            font-family: 'DM Sans';\n        }\n\n        .icon {\n            background: #fff;\n            border-radius: 50%;\n            border: 1px solid #5A595B;\n            padding: 10px;\n            width: 38px;\n            height: 38px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n        }\n\n        .icon>svg {\n            width: 43px;\n            height: 43px;\n        }\n\n        .icon.html5 {\n            margin-top: 48px;\n        }\n\n        .icon.myop {\n            margin-top: -32px;\n            margin-left: 37px;\n        }\n\n        .title {\n            font-weight: 600;\n            font-size: 19px;\n            line-height: 28px;\n            text-align: center;\n            margin-bottom: 0;\n        }\n\n        .subtitle {\n            font-weight: 400;\n            font-size: 16px;\n            line-height: 24px;\n            text-align: center;\n            margin-top: 0;\n            letter-spacing: 0.1px;\n            margin-bottom: 15px;\n        }\n\n        .buttons {\n            display: flex;\n            gap: 8px;\n            justify-content: center;\n        }\n\n        .button {\n            padding: 6px 15px;\n            font-size: 14px;\n            border-radius: 40px;\n            border: none;\n            cursor: pointer;\n        }\n\n        .button-primary {\n            background: #fff;\n            color: #000;\n        }\n\n        .button-secondary {\n            background: #343738;\n            border: 1px solid #5A595B;\n            color: #fff;\n        }\n    </style>\n\n    </div>\n\n \n",
+                    "shadowRootMode": "closed"
+                  },
+                  "id": "8b9300d3-855e-4ad6-ba23-881ae301d633"
+                }
+              ],
+              "defaultSkin": 0,
+              "createdOn": "2025-08-07T09:55:25.000Z"
+            },
+            "instance": {
+              "id": "176fafb2-f375-4e5b-aa40-f1dd129bac77",
+              "componentId": "c6efaea7-db53-4507-a836-a9acffe787b1",
+              "componentName": "HTMLTemplateComponent",
+              "skinSelector": {
+                "type": "Dedicated",
+                "skin": {
+                  "id": "8fe7621f-88e9-4d66-90bd-2c48cf883504"
+                }
+              },
+              "nestedComponents": [],
+              "resolvedNestedComponents": []
+            },
+            "name": "HTMLTemplateComponent"
+          }
+        ],
+        "resolvedExperiences": []
+      },
+      "name": "compositeHtml"
+    }
+  ]
+}
